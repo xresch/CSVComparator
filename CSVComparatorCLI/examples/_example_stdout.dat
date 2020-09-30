@@ -1,0 +1,7 @@
+-older.file=./testdata/fruits_older.csv
+-older.delimiter=,
+-younger.file=./testdata/fruits_younger.csv
+-younger.delimiter=,
+-result.stdout=true
+-result.delimiter=;
+-config.loglevel.console=OFF

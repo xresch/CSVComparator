@@ -1,0 +1,26 @@
+#################################################
+# Older File Configuration
+#################################################
+-older.file=./testdata/fruits_older.csv
+-older.label=01.2013
+-older.delimiter=,
+
+#################################################
+# Younger File Configuration
+#################################################
+-younger.file=./testdata/fruits_younger.csv
+-younger.label=02.2013
+-younger.delimiter=,
+
+#################################################
+# Result File Configuration
+#################################################
+-result.file=./result/compared_fruits_ConfigFile.csv
+-result.delimiter=;
+
+#################################################
+# Output Configuration
+#################################################
+-result.comparediff=true
+-result.comparediff%=true
+-result.comparestring=true

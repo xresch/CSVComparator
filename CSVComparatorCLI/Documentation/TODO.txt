@@ -1,0 +1,51 @@
+
+Done in v1.6:
+	- 
+	
+TODO Compare:
+	- add ant Packaging
+	- Check javadoc
+	- Check value trimming
+	- Add Regex Compilable validator to delimiters & TransformArguments>>inputFileFilter
+	- Add log level loading/saving
+		- add to settings, new settings tab (console viewer)
+	- Add folder comparison
+	- Replace existing quotes when writing with quotes
+	- Add hierarchical comparison
+	- Add console viewer
+	- Add result viewer
+	- Add more bash templates
+	- Add xml compare as CSV
+	- change to use data binding
+	- Add loading animation
+	- Change logo to splashscreen everywhere
+	- Add known limitations to documentation
+		- in memory calculation
+		- quotes issue with \" outside quotes
+		- no quotes in arguments value
+
+TODO Transform:
+	- Create transparent Logo
+	- Add -result.quotes argument to Transformer
+	- XML << >> CSV
+	- JSON << >> CSV
+	- HTMLTable << >> CSV table format
+	- vCard << >> CSV (.vcf???)
+	- CSV << >> Properties
+	- CSV >> SQL INSERT/DELETE
+	- Java Code >> CSV
+	- Javadoc >> CSV
+	
+IDEAS:
+	- CSVAPI Statistics
+	- CSVAPI Merger
+	- CSVAPI Splitter
+	- CSVAPI DB
+	- CSVAPI Splunk
+	- CSVAPI Pivot
+	- CSVAPI Plot
+	- CSVAPI Report
+	- CSVAPI Docu
+		- Remove add quotes (set read and write option)
+	
+	

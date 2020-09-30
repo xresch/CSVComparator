@@ -1,0 +1,8 @@
+-older.file=./testdata/fruits_identifierColumn_older.csv
+-younger.file=./testdata/fruits_identifierColumn_younger.csv
+-result.file=./result/compared_fruits_identifierColumn.csv
+-result.delimiter=;
+-column.identifier=Fruit,SweetFood
+-result.sort=false
+-column.compareDef=Count,Count,printOlder(),printYounger(),compareDifference%()
+-config.loglevel.console=DEBUG

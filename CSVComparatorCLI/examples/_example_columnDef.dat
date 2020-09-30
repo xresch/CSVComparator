@@ -1,0 +1,6 @@
+-older.file=./testdata/fruits_columnDef_older.csv
+-younger.file=./testdata/fruits_columnDef_younger.csv
+-result.file=./result/compared_fruits_columnDef.csv
+-result.delimiter=;
+-column.compareDef=Count,Count,printOlder(),printYounger(),compareDifference%()
+-column.compareDef=Category,Category,printOlder(),printYounger(),compareAsStrings()

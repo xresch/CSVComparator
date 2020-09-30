@@ -1,0 +1,68 @@
+#################################################
+# Release Version 1.5
+#################################################
+
+General:
+  - Added validation to arguments
+  - Fixed ArrayOutOfBoundsException when rows do not contain the same number of values as the header 
+  - Added performance logs
+  
+  - Source code refactoring
+  	>> Removed CSVAPIContext for easier API usage
+  	>> Created Builders for Argument classes
+  	>> Removed Hardcoded argument strings and replaced with static field references
+  	
+  - added support for handling quotes, arguments: 
+    >> -older.quotes 
+    >> -younger.quotes
+    >> -result.quotes
+   
+GUI:
+  - added handling Quotes checkboxes
+  - Changed config file saving: File paths will be taken from text fields instead using absolute path. 
+  - Fixed save as Bash File (was only working in IDE)
+  - Fixed known issue: Adding/Loading/Scrolling manual compare definitions can make the application display the information icon in strange places
+  - Fixed known issue: scrolling manual compare definitions doesn't look fluent
+  
+#################################################
+# Release Version 1.4
+#################################################
+
+!!!IMPORTANT NOTES!!!: 
+  - The arguments from v1.3 are not compatible with v1.4
+  - The GUI needs Java version 7 or higher to work
+
+The following changes were made in this release:
+  - updated documentation and added more examples
+  - fixed bug: application breaks when a row doesn't contain the same number of values than the header row
+  - logging to file and console
+  - renamed the arguments to a better format
+  - new arguments:
+    - "-config.loglevel.console"
+    - "-config.loglevel.file"
+    - "-result.stdout"
+  - added handling for not supported and missing arguments
+  - Created a user interface
+    - Directly compare through the user interface without the need to go to the command line
+    - saving of config files which can be passed to the commandline tool
+    - loading of config files
+    - save as bash scripts
+
+Known Issues:
+  - Adding/Loading/Scrolling manual compare definitions can make the application display the information icon in strange places
+  - scrolling manual compare definitions doesn't look fluently
+  - application aborts when the logfile cannot be created (no write permissions on the directory were the application is executed)
+
+#################################################
+# Release Version 1.3
+#################################################
+First release with the following features:
+  - commandline interface
+  - default comparison
+  - manual comparison
+  - compare files with top levels
+  - using config files
+  - sorting result
+  - make identifiers unique
+  
+  

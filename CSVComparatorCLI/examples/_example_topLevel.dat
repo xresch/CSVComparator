@@ -1,0 +1,16 @@
+-config.loglevel.console=INFO
+-config.loglevel.file=DEBUG
+
+-older.file=.\testdata\fruits_topLevel_older.csv
+-older.label=old
+-older.delimiter=;
+
+-younger.file=D:.\testdata\fruits_topLevel_younger.csv
+-younger.label=young
+-younger.delimiter=;
+
+-result.file=.\result\compared_fruits_topLevel.csv
+-result.sort=false
+
+-column.toplevel=Level,Level,Top
+-column.compareDef=Count,Count,printOlder(),printYounger(),compareDifference%()

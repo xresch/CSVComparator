@@ -1,0 +1,6 @@
+Fruit;Category(old);Category(young);Category Diff%;Category EQ?;Count(old);Count(young);Count Diff%;Count EQ?
+Apple [1];A;A;ERR;EQ;10;10;0.0;EQ
+Apple [2];B;B;ERR;EQ;12;12;0.0;EQ
+Banana;C;C;ERR;EQ;5;5;0.0;EQ
+Orange;D;D;ERR;EQ;20;20;0.0;EQ
+Pear;B;B;ERR;EQ;7;7;0.0;EQ

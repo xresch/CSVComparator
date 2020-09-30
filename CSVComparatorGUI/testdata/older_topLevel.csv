@@ -1,0 +1,19 @@
+Description;Count;Level
+Warehouse A;54;Top
+Orange;20;Sub
+Apple;10;Sub
+Apple;12;Sub
+Pear;7;Sub
+Banana;5;Sub
+Warehouse B;62;Top
+Orange;15;Sub
+Apple;14;Sub
+PassionFruit;16;Sub
+Pear;7;Sub
+Banana;10;Sub
+Warehouse C;16157;Top
+Plum;0;Sub
+Durian;2;Sub
+Cranberry;10000;Sub
+Strawberry;600;Sub
+Blackberry;5555;Sub
