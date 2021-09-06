@@ -1,0 +1,6 @@
+Fruit,Count Diff%,Count Diff,Count EQ?
+Apple,-0.19999999999999996,-2.0,NOTEQ
+Banana,0.0,0.0,EQ
+Lemon,-,-,-
+Orange,-,-,-
+Pear,1.4285714285714284,10.0,NOTEQ

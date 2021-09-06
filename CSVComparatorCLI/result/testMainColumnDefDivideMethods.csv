@@ -1,0 +1,6 @@
+Fruit,Count(younger),Count(older)
+Apple,4.0,5.0
+Banana,2.5,2.5
+Lemon,8.0,-
+Orange,-,10.0
+Pear,8.5,3.5

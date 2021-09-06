@@ -1,0 +1,6 @@
+Fruit,Count(older),Count(younger), ,Count
+Apple,10,8, ,10/8
+Banana,5,5, ,5
+Lemon,-,16, ,16
+Orange,20,-, ,20
+Pear,7,17, ,7/17

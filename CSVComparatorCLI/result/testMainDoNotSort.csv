@@ -1,0 +1,8 @@
+Fruit,Count(older),Count(younger),Count Diff%
+Orange,20,-,-
+Lemon,-,16,-
+Apple [1],10,8,-0.19999999999999996
+Apple [2],12,-,-
+Pear,7,17,1.4285714285714284
+Banana [1],5,5,0.0
+Banana [2],-,8008,-
