@@ -141,7 +141,7 @@ public class ColumnChooserCombo extends Composite {
 	// INNER CLASSES
 	//####################################################################################
 	private final class HeadersListener implements ChangeListener {
-		@Override
+		
 		public void stateChanged(ChangeEvent e) {
 			
 			String currentSelection = innerCombo.getText();
