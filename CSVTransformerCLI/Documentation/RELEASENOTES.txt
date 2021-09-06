@@ -1,0 +1,19 @@
+#################################################
+# Release Version 0.5
+#################################################
+
+The following features were introduced in this release:
+  - Transformation for single .xml-Files
+  - Trasformation for all .xml-Files in a folder
+  - input.filefilter argument
+  - result.delimiter argument
+  - result.prefix argument
+  - result.sort argument
+  - result.stdout argument
+
+Known Issues:
+  - Parsing Exceptions for not well formatted .xml-Files
+  - Values in output is not quoted, please use a rare sign as a delimiter(e.g. '¿')
+
+  
+  

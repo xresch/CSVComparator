@@ -1,0 +1,55 @@
+<root>
+<log>
+	<time attribute="attributeOnly" />
+	<time attribute="bla" count="234" haha="hihi" >2015-03-09 07:23:26.446</time>
+	<location>
+		<requestid>f30bb37c-5fdd-44d2-aec8-3d883f4a9ad4</requestid>
+		<class>com.csvcomparator.cli.main.CSVComparatorCLI</class>
+		<method>main</method>
+	</location>
+	<event>
+		<level>DEBUG</level>
+		<msg>Key: -younger.label, Value:younger</msg>
+	</event>
+</log>
+<log>
+	<time>2015-03-09 07:23:26.446</time>
+	<location>
+		<requestid>f30bb37c-5fdd-44d2-aec8-3d883f4a9ad4</requestid>
+		<class>com.csvcomparator.cli.main.CSVComparatorCLI</class>
+		<method>main</method>
+	</location>
+	<event>
+		<level>DEBUG</level>
+		<msg>
+			multiline
+			multiline
+			multiline
+			multiline
+			multiline
+		</msg>
+	</event>
+</log>
+<log>
+	<time>2015-03-09 07:23:26.446</time>
+	<time>2015-03-09 07:23:26.446</time>
+	<time>2015-03-09 07:23:26.446</time>
+	<location>
+		<requestid>f30bb37c-5fdd-44d2-aec8-3d883f4a9ad4</requestid>
+		<requestid>f30bb37c-5fdd-44d2-aec8-3d883f4a9ad4</requestid>
+		<class>com.csvcomparator.cli.main.CSVComparatorCLI</class>
+		<method>main</method>
+	</location>>
+</log>
+<cdatatest>
+	<contains attr="bla">
+			<![CDATA[<bla> 
+				 &blie&
+				 "blub"]]>
+	</contains>
+	<records>
+			<![CDATA[so many things]]>
+			<![CDATA[]]>
+	</records>
+</cdatatest>
+</root>
