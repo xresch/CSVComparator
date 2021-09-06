@@ -1,0 +1,23 @@
+<root>
+<test>
+	<emptyelement />
+	<attrOnly attribute="attributeOnly" />
+	<attrAndContent attribute="bla" count="234" haha="hihi" >2015-03-09 07:23:26.446</attrAndContent>
+	<subelements>
+		<requestid>f30bb37c-5fdd-44d2-aec8-3d883f4a9ad4</requestid>
+		<class>com.csvcomparator.cli.main.CSVComparatorCLI</class>
+		<method>main</method>
+	</subelements>
+	<msg>
+		multiline
+		multiline
+		multiline
+		multiline
+		multiline
+	</msg>
+	<cdatatest>
+			<![CDATA[so many things]]>
+			<![CDATA[]]>
+	</cdatatest>
+</test>
+</root>

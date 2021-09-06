@@ -1,0 +1,24 @@
+Fruit,"Count","Description"
+"Orange",20,first quoted
+
+Apple,"10",middle quoted
+Apple,10,"last quoted"
+"Apple","12","all quoted"
+",PearTest",7,delimiter in quotes start
+"Pear,Test",7,delimiter in quotes middle
+"PearTest,",7,delimiter in quotes end
+",Pear,Test,",7,delimiter in quotes combo
+"\"Banana",5,escaped quote start
+"Ban\"ana",5,escaped quote middle
+"Banana\"",5,escaped quote end
+"\"Ban\"ana\"",5,escaped quote combo
+"\\Banana",6,escaped escape start
+"Ban\\ana",6,escaped escape middle
+"Banana\\",6,escaped escape end
+"\\Ban\\ana\\",6,escaped escape combo
+",,,,,,,,,",",,,,,,",",,,,,,combination, many delimiter test"
+"Ban,ana","8,5","combination, comma and text"
+"Ban,\"ana\\","8,5\\","combination, escaped quote and backslash "
+"Ban,\"ana\\",\9\,"combination, comma followed by escaped quote"
+"Ban,\"\"ana\"\"\"\\",\9\,"combination, many escaped quotes"
+Ban\"a\\na,\"9\",combination many not escaped quotes \"\"\"\"\"

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	
+	<!--
+	*************************************************************  
+	* APPENDERS 
+	*************************************************************-->
+	<Appenders>
+	
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern><![CDATA[%d{YYYY-MM-dd HH:mm:ss.SSS} [%level] %msg%n]]></Pattern>
+			</PatternLayout>
+		</Console>
+		
+		<RollingFile name="ROLLING_FILE" fileName="./csvapi.log" filePattern="" ignoreExceptions="false" append="true"  >
+			<PatternLayout>
+				<Pattern><![CDATA[<log><time>%d{YYYY-MM-dd HH:mm:ss.SSS}</time><location><requestid>%mdc{requestid}</requestid><class>%class{50}</class><method>%method</method></location><event><level>%level</level><msg>%msg</msg></event></log>%n]]></Pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="1 MB" />
+		</RollingFile>
+		
+	</Appenders>
+	
+	<!--
+	*************************************************************  
+	* LOGGERS
+	*************************************************************-->
+	<Loggers>
+		<Root level="ALL">
+			<AppenderRef ref="ROLLING_FILE" />
+			<AppenderRef ref="CONSOLE" />
+		</Root>
+	</Loggers>
+</Configuration>
